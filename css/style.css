@@ -48,6 +48,9 @@ body {
 
 .logo {
   font-size: 2.4rem;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  text-transform: lowercase;
   margin-right: auto;
   padding: 1.6rem 3.2rem;
 }
