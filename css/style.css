@@ -41,7 +41,7 @@ body {
   margin: 0 auto;
 }
 
-.navigation {
+.header {
   color: var(--grey-1);
   display: flex;
 }
@@ -53,6 +53,10 @@ body {
   text-transform: lowercase;
   margin-right: auto;
   padding: 1.6rem 3.2rem;
+}
+
+.navigation {
+  display: flex;
 }
 
 .nav-link:link,
