@@ -79,8 +79,8 @@ body {
 
 .video-container {
   background-color: aquamarine;
-  width: 100rem;
-  height: 50rem;
+  max-width: 100rem;
+  height: 50vh;
 }
 
 .main-title {
@@ -91,7 +91,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100vw;
-  height: 10rem;
+  height: 10vh;
   font-size: 1.4rem;
   display: flex;
   justify-content: space-around;
