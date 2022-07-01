@@ -44,6 +44,7 @@ body {
 .header {
   color: var(--grey-1);
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -55,8 +56,10 @@ body {
   padding: 1.6rem 3.2rem;
 }
 
-.navigation {
+.nav-list {
+  list-style: none;
   display: flex;
+  gap: 3.2rem;
 }
 
 .nav-link:link,
@@ -68,7 +71,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1.6rem 3.2rem;
+  padding: 2.4rem 4.8rem;
   transition: background-color 0.3s;
 }
 
