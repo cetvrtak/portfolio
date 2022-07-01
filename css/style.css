@@ -76,9 +76,47 @@ body {
 .video-container {
   background-color: aquamarine;
   width: 100rem;
-  height: 100rem;
+  height: 50rem;
 }
 
 .main-title {
   font-size: 4.8rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 10rem;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--grey-1);
+}
+
+.social {
+  display: block;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.github-link:link,
+.github-link:visited {
+  text-decoration: none;
+  color: var(--grey-1);
+}
+
+.github-link:hover,
+.github-link:active {
+  color: var(--grey-2);
+  transition: color 0.3s;
+}
+
+.github-icon {
+  stroke: var(--grey-1);
 }
