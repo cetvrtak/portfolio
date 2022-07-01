@@ -39,6 +39,8 @@ body {
   max-width: 100rem;
   height: 100vh;
   margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
 
 .header {
@@ -80,8 +82,8 @@ body {
   background-color: var(--secondary-color-1);
 }
 
-.video-container {
-  background-color: var(--secondary-color-2);
+.main {
+  /* background-color: var(--secondary-color-2); */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -90,6 +92,7 @@ body {
 .video-itself {
   max-width: 100%;
   /* height: 50vh; */
+  border-radius: 25px;
 }
 
 .hero-title {
