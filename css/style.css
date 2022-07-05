@@ -166,6 +166,10 @@ body {
 }
 
 /* FOOTER */
+.footer-placeholder {
+  height: 9.6rem;
+}
+
 footer {
   position: fixed;
   bottom: 0;
