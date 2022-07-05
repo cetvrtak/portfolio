@@ -25,34 +25,96 @@
     <title>Home Page</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container">
         <div class="logo">Logo</div>
         <nav class="navigation">
           <ul class="nav-list">
             <li><a href="index.html" class="nav-link">Home</a></li>
             <li><a href="about.html" class="nav-link">About Me</a></li>
             <li><a href="contact.html" class="nav-link">Contact</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
           </ul>
         </nav>
-      </header>
+      </div>
+    </header>
 
-      <main class="main">
-        <h1 class="hero-title"><em>Hero</em> Title</h1>
-        <video
-          autoplay
-          muted
-          loop
-          src="https://ak.picdn.net/shutterstock/videos/1013627519/preview/stock-footage--d-rendered-animation-rotating-of-dna-molecule-genetics-and-science-concept-abstract-text-design.webm"
-          type="video/mp4"
-          class="video-itself"
-        >
-          Your browser does not support HTML5 video.
-        </video>
-      </main>
-    </div>
+    <main class="main">
+      <section class="section-hero">
+        <div class="container">
+          <h1 class="hero-title"><em>Hero</em> Title</h1>
+          <video
+            autoplay
+            muted
+            loop
+            src="https://ak.picdn.net/shutterstock/videos/1013627519/preview/stock-footage--d-rendered-animation-rotating-of-dna-molecule-genetics-and-science-concept-abstract-text-design.webm"
+            type="video/mp4"
+            class="video-itself"
+          >
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+      </section>
 
-    <footer>
+      <section class="section-projects">
+        <div class="container">
+          <h2 class="projects-title"><em>My</em> Projects</h2>
+          <div class="projects-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="chevron"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+            <!-- <div class="project"> -->
+            <img
+              src="https://picsum.photos/seed/project-1/200/300"
+              alt="Project 1"
+              class="project-img"
+            />
+            <!-- </div> -->
+            <!-- <div class="project project--active"> -->
+            <img
+              src="https://picsum.photos/seed/project-2/200/300"
+              alt="Project 2"
+              class="project-img project--active"
+            />
+            <!-- </div> -->
+            <!-- <div class="project"> -->
+            <img
+              src="https://picsum.photos/seed/project-3/200/300"
+              alt="Project 3"
+              class="project-img"
+            />
+            <!-- </div> -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="chevron chevron--right"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- <footer>
       <div class="copyright">Copyright &copy; 2022</div>
       <div class="social">
         <a
@@ -75,6 +137,6 @@
           GitHub</a
         >
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
