@@ -140,10 +140,17 @@ h2 {
   margin-bottom: 2.4rem;
 }
 
-/* PROJECTS SECTION */
-.section-projects {
+/* CONTACT ME SECTION */
+.section-contact {
   background-color: var(--primary-color-1);
   color: var(--grey-1);
+  padding: 9.6rem 0;
+}
+
+/* PROJECTS SECTION */
+.section-projects {
+  background-color: var(--grey-1);
+  color: var(--primary-color-1));
   font-family: "Lora", serif;
   padding: 9.6rem 0;
 }
@@ -175,9 +182,9 @@ h2 {
 
 .chevron {
   min-width: 3rem;
-  stroke: var(--grey-1);
+  stroke: var(--primary-color-1));
   cursor: pointer;
-  border: 1px solid var(--grey-1);
+  border: 1px solid var(--primary-color-1);
   border-radius: 50%;
   display: flex;
   align-items: center;
