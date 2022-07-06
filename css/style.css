@@ -20,6 +20,7 @@
   --primary-color-3: #003d26;
   --grey-1: #f8f9fa;
   --grey-2: #f1f3f5;
+  --grey-3: #ced4da;
 
   --secondary-color-1: #35605a;
   --secondary-color-2: #6b818c;
@@ -147,12 +148,102 @@ h2 {
   background-color: var(--primary-color-1);
   color: var(--grey-1);
   padding: 9.6rem 0;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+  padding: 0 4.8rem;
+}
+
+.info-box {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-field {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.info-field span {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+}
+
+.info-field a:link,
+.info-field a:visited {
+  text-decoration: none;
+  color: var(--grey-1);
+}
+
+.info-field a:hover,
+.info-field a:active {
+  text-decoration: underline;
+  color: var(--grey-3);
+}
+
+.info-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.heading-email {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.contact-box,
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-box {
+  justify-content: space-between;
+}
+
+.contact-input {
+  border-radius: 9px;
+  padding: 0 1.2rem;
+  line-height: 2;
+}
+
+.contact-input,
+.contact-input::placeholder,
+.send-msg-btn {
+  font-size: 2rem;
+}
+
+.send-msg-btn {
+  display: inline-block;
+  align-self: center;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  background-color: var(--secondary-color-1);
+  color: var(--grey-1);
+  border: 2px solid var(--grey-1);
+  border-radius: 9px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.send-msg-btn:hover {
+  background-color: var(--primary-color-1);
 }
 
 /* PROJECTS SECTION */
 .section-projects {
   background-color: var(--grey-1);
-  color: var(--primary-color-1));
+  color: var(--primary-color-1);
   font-family: "Lora", serif;
   padding: 9.6rem 0;
 }
@@ -184,7 +275,7 @@ h2 {
 
 .chevron {
   min-width: 3rem;
-  stroke: var(--primary-color-1));
+  stroke: var(--primary-color-1);
   cursor: pointer;
   border: 1px solid var(--primary-color-1);
   border-radius: 50%;
