@@ -25,6 +25,8 @@
   --secondary-color-2: #6b818c;
   --secondary-color-3: #d8e4ff;
   --secondary-color-4: #31e981;
+
+  --footer-height: 9.6rem;
 }
 
 html {
@@ -198,14 +200,14 @@ h2 {
 
 /* FOOTER */
 .footer-placeholder {
-  height: 9.6rem;
+  height: var(--footer-height);
 }
 
 footer {
   position: fixed;
   bottom: 0;
   width: 100vw;
-  height: 9.6rem;
+  height: var(--footer-height);
   font-size: 1.4rem;
   display: flex;
   justify-content: space-around;
