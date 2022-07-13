@@ -15,17 +15,16 @@
 
 /* COLORS */
 :root {
-  --primary-color-1: #00120b;
-  --primary-color-2: #002919;
-  --primary-color-3: #003d26;
-  --grey-1: #f8f9fa;
-  --grey-2: #f1f3f5;
-  --grey-3: #ced4da;
+  --primary-color-1: #eff7cf;
+  --primary-color-2: #839d1b;
+  --primary-color-3: #b9dc2e;
+  --grey-1: #212529;
+  --grey-2: #adb5bd;
 
-  --secondary-color-1: #35605a;
-  --secondary-color-2: #6b818c;
-  --secondary-color-3: #d8e4ff;
-  --secondary-color-4: #31e981;
+  --secondary-color-1: #bad9b5;
+  --secondary-color-2: #aba361;
+  --secondary-color-3: #732c2c;
+  --secondary-color-4: #420c14;
 
   --footer-height: 9.6rem;
 }
@@ -80,6 +79,10 @@ h2 {
   gap: 3.2rem;
 }
 
+.nav-icon {
+  display: none;
+}
+
 .nav-link:link,
 .nav-link:visited {
   font-size: 1.4rem;
@@ -114,16 +117,19 @@ h2 {
 
 .video-itself {
   width: 75%;
-  /* height: 50vh; */
   border-radius: 25px;
 }
 
 .hero-title {
   font-family: "Lora", serif;
-  font-size: 4.4rem;
+  font-size: 4.2rem;
   font-weight: 500;
+  color: white;
+  transform: translateX(58%);
+}
+
+.hero-title em {
   color: var(--grey-1);
-  transform: translateX(50%);
 }
 
 /* ABOUT ME SECTION */
@@ -134,7 +140,6 @@ h2 {
 }
 
 .about-me-title {
-  text-transform: uppercase;
   font-family: "Lora", serif;
 }
 
@@ -193,7 +198,6 @@ h2 {
 }
 
 .info-field span {
-  text-transform: uppercase;
   font-family: "Lora", serif;
 }
 
@@ -206,7 +210,7 @@ h2 {
 .info-field a:hover,
 .info-field a:active {
   text-decoration: underline;
-  color: var(--grey-3);
+  color: var(--grey-2);
 }
 
 .info-icon {
@@ -355,7 +359,7 @@ footer {
 
 @media (max-width: 1000px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
 
   .container {
@@ -368,7 +372,7 @@ footer {
   }
 
   .hero-title {
-    font-size: 3.6rem;
+    font-size: 3.3rem;
   }
 
   .project-img {
@@ -380,9 +384,10 @@ footer {
   }
 }
 
-@media (max-width: 640px) {
+/* TABLET */
+@media (max-width: 768px) {
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
 
   .container {
@@ -394,8 +399,29 @@ footer {
     padding: 0.8rem 1.6rem;
   }
 
+  .section-hero .container {
+    display: block;
+    height: 100%;
+    max-width: fit-content;
+    position: relative;
+  }
+
   .hero-title {
-    font-size: 3rem;
+    font-size: 3.6rem;
+    transform: translateX(0);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .hero-title em {
+    color: white;
+  }
+
+  .video-itself {
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 4.8rem;
   }
 
   .project-img {
@@ -408,12 +434,63 @@ footer {
   }
 }
 
-@media (max-width: 445px) {
+@media (max-width: 556px) {
   html {
     font-size: 40%;
   }
 
   .container {
     max-width: 65rem;
+  }
+
+  .nav-list {
+    gap: 6.4rem;
+  }
+
+  .nav-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+
+  .nav-link:link,
+  .nav-link:active {
+    display: none;
+  }
+
+  .hero-title {
+    font-size: 2.7rem;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 425px) {
+  .container {
+    /* max-width: 32rem; */
+  }
+
+  .nav-list {
+    gap: 4.8rem;
+  }
+
+  .about-me-img {
+    display: none;
+  }
+
+  .project-img {
+    width: 10rem;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+
+  .info-box {
+    gap: 1.6rem;
+  }
+
+  .chevron {
+    min-width: 2.4rem;
   }
 }
