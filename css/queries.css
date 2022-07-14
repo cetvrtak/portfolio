@@ -9,11 +9,7 @@
 
   .nav-link:link,
   .nav-link:visited {
-    padding: 1.2rem 2.4rem;
-  }
-
-  .hero-title {
-    font-size: 3.3rem;
+    padding: 2.4rem 2.4rem;
   }
 
   .project-img {
@@ -37,32 +33,7 @@
 
   .nav-link:link,
   .nav-link:visited {
-    padding: 0.8rem 1.6rem;
-  }
-
-  .section-hero .container {
-    display: block;
-    height: 100%;
-    max-width: fit-content;
-    position: relative;
-  }
-
-  .hero-title {
-    font-size: 3.6rem;
-    transform: translateX(0);
-    position: absolute;
-    top: 50px;
-    left: 50px;
-  }
-
-  .hero-title em {
-    color: white;
-  }
-
-  .video-itself {
-    width: 100%;
-    border-radius: 0;
-    margin-bottom: 4.8rem;
+    padding: 2.4rem 1.6rem;
   }
 
   .section-about-me {
@@ -89,7 +60,7 @@
   }
 
   .container {
-    max-width: 65rem;
+    max-width: 60rem;
   }
 
   .nav-list {
@@ -106,16 +77,12 @@
   .nav-link:active {
     display: none;
   }
-
-  .hero-title {
-    font-size: 2.7rem;
-  }
 }
 
 /* MOBILE */
 @media (max-width: 425px) {
-  .container {
-    /* max-width: 32rem; */
+  html {
+    font-size: 30%;
   }
 
   .nav-list {
