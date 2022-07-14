@@ -95,6 +95,7 @@ h2 {
 }
 .nav-icon {
   display: none;
+  color: var(--grey-1);
 }
 .nav-link:link,
 .nav-link:visited {
