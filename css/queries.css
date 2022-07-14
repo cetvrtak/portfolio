@@ -93,7 +93,7 @@
 
   .contact-container {
     grid-template-columns: 1fr;
-    gap: 4.8rem;
+    gap: 9.6rem;
   }
 
   .info-box {
