@@ -134,18 +134,16 @@ h2 {
   background-color: var(--grey-1);
   color: var(--primary-color-1);
   padding: 9.6rem 0;
+  height: calc(100vh - var(--header-height) - var(--footer-height));
 }
-
 .about-me-title {
   font-family: "Lora", serif;
 }
-
 .about-me-box {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
 }
-
 .about-me-hi {
   text-transform: uppercase;
   font-family: "Lora", serif;
@@ -153,16 +151,14 @@ h2 {
   font-weight: 400;
   text-align: center;
 }
-
 .about-me-img {
   width: 20rem;
   float: right;
   margin: 3.2rem;
   border-radius: 25px;
 }
-
 .about-me-desc {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 /* CONTACT ME SECTION */
