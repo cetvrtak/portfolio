@@ -120,6 +120,37 @@ h2 {
   height: 0.6rem;
   margin: 1rem 0;
 }
+.hamburger-close {
+  display: none;
+  width: 4.8rem;
+  height: 4.8rem;
+  stroke: var(--grey-1);
+}
+.hamburger-menu {
+  display: none;
+  font-size: 3rem;
+  position: absolute;
+  top: var(--header-height);
+  z-index: 1;
+}
+.hamburger-item {
+  display: block;
+  width: 100vw;
+  text-align: center;
+  padding: 3.2rem 0;
+}
+.hamburger-item:link,
+.hamburger-item:visited {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--primary-color-1);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.hamburger-item:hover,
+.hamburger-item:active {
+  background-color: var(--primary-color-1);
+  color: var(--grey-1);
+}
 
 /* HERO SECTION */
 .hero-title {
