@@ -28,6 +28,7 @@ html {
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--primary-color-1);
+  color: var(--grey-1);
   overflow: hidden;
   position: relative;
 }
@@ -124,8 +125,8 @@ h2 {
 
 /* ABOUT ME SECTION */
 .section-about-me {
-  background-color: var(--grey-1);
-  color: var(--primary-color-1);
+  /* background-color: var(--grey-1);
+  color: var(--primary-color-1); */
   padding: 9.6rem 0;
   height: 100vh;
 }
@@ -238,8 +239,8 @@ h2 {
 
 /* PROJECTS SECTION */
 .section-projects {
-  background-color: var(--grey-1);
-  color: var(--primary-color-1);
+  /* background-color: var(--grey-1);
+  color: var(--primary-color-1); */
   /* font-family: "Lora", serif; */
   padding: 9.6rem 0;
   height: 100vh;
