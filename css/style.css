@@ -50,7 +50,7 @@ video {
   grid-template-rows: auto 1fr; */
 }
 h2 {
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
   font-size: 3.6rem;
   font-weight: 500;
   text-align: center;
@@ -77,7 +77,7 @@ h2 {
 }
 .logo {
   font-size: 2.4rem;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
   font-weight: 700;
   text-transform: lowercase;
   margin-right: auto;
@@ -111,7 +111,7 @@ h2 {
 
 /* HERO SECTION */
 .hero-title {
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
   font-size: 4.2rem;
   font-weight: 500;
   color: white;
@@ -129,7 +129,7 @@ h2 {
   height: calc(100vh - var(--header-height) - var(--footer-height));
 }
 .about-me-title {
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
 }
 .about-me-box {
   display: flex;
@@ -138,7 +138,7 @@ h2 {
 }
 .about-me-hi {
   text-transform: uppercase;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
   font-size: 5.2rem;
   font-weight: 400;
   text-align: center;
@@ -179,7 +179,7 @@ h2 {
   gap: 1.2rem;
 }
 .info-field span {
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
 }
 .info-field a:link,
 .info-field a:visited {
@@ -239,7 +239,7 @@ h2 {
 .section-projects {
   background-color: var(--grey-1);
   color: var(--primary-color-1);
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
   padding: 9.6rem 0;
   height: calc(100vh - var(--header-height) - var(--footer-height));
 }
