@@ -138,13 +138,6 @@ h2 {
   flex-direction: column;
   gap: 2.4rem;
 }
-.about-me-hi {
-  text-transform: uppercase;
-  /* font-family: "Lora", serif; */
-  font-size: 5.2rem;
-  font-weight: 400;
-  text-align: center;
-}
 .about-me-img {
   width: 20rem;
   float: right;
