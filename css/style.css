@@ -20,7 +20,7 @@
   --secondary-color-1: rgba(30, 146, 166);
 
   --header-height: 6.4rem;
-  --footer-height: 9.6rem;
+  --footer-height: 8rem;
 }
 html {
   font-size: 62.5%;
@@ -127,7 +127,7 @@ h2 {
   background-color: var(--grey-1);
   color: var(--primary-color-1);
   padding: 9.6rem 0;
-  height: calc(100vh - var(--header-height) - var(--footer-height));
+  height: 100vh;
 }
 .about-me-title {
   /* font-family: "Lora", serif; */
@@ -242,7 +242,7 @@ h2 {
   color: var(--primary-color-1);
   /* font-family: "Lora", serif; */
   padding: 9.6rem 0;
-  height: calc(100vh - var(--header-height) - var(--footer-height));
+  height: 100vh;
 }
 .projects-container {
   display: flex;
@@ -276,10 +276,6 @@ h2 {
 }
 
 /* FOOTER */
-.footer-placeholder {
-  height: var(--footer-height);
-}
-
 footer {
   position: fixed;
   bottom: 0;
@@ -292,29 +288,24 @@ footer {
   color: var(--grey-1);
   background-color: var(--primary-color-1);
 }
-
 .social {
   display: block;
 }
-
 .github-link {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-
 .github-link:link,
 .github-link:visited {
   text-decoration: none;
   color: var(--grey-1);
 }
-
 /* .github-link:hover,
 .github-link:active {
   color: var(--secondary-color-1);
   transition: all 0.3s;
 } */
-
 .github-icon {
   stroke: var(--grey-1);
 }
