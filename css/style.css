@@ -259,9 +259,9 @@ h2 {
 }
 .chevron {
   min-width: 3rem;
-  stroke: var(--primary-color-1);
+  stroke: var(--grey-1);
   cursor: pointer;
-  border: 1px solid var(--primary-color-1);
+  border: 1px solid var(--grey-1);
   border-radius: 50%;
   display: flex;
   align-items: center;
