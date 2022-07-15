@@ -282,11 +282,14 @@ footer {
   width: 100vw;
   height: var(--footer-height);
   font-size: 1.4rem;
+  color: var(--grey-1);
+  background-color: var(--primary-color-1);
+}
+footer .container {
+  height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: var(--grey-1);
-  background-color: var(--primary-color-1);
 }
 .social {
   display: block;
@@ -307,5 +310,5 @@ footer {
   transition: all 0.3s;
 } */
 .github-icon {
-  stroke: var(--grey-1);
+  fill: var(--grey-1);
 }
