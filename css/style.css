@@ -14,16 +14,10 @@
 }
 /* COLORS */
 :root {
-  --primary-color-1: #eff7cf;
-  --primary-color-2: #839d1b;
-  --primary-color-3: #b9dc2e;
-  --grey-1: #212529;
-  --grey-2: #adb5bd;
+  --primary-color-1: #0a1216;
+  --grey-1: #fff;
 
-  --secondary-color-1: #bad9b5;
-  --secondary-color-2: #aba361;
-  --secondary-color-3: #732c2c;
-  --secondary-color-4: #420c14;
+  --secondary-color-1: rgba(30, 146, 166);
 
   --header-height: 6.4rem;
   --footer-height: 9.6rem;
@@ -120,7 +114,7 @@ h2 {
   font-family: "Lora", serif;
   font-size: 4.2rem;
   font-weight: 500;
-  color: var(--grey-1);
+  color: var(--primary-color-1);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -193,12 +187,12 @@ h2 {
 .info-field a:visited {
   text-decoration: none;
   color: var(--grey-1);
+  transition: all 0.3s;
 }
-.info-field a:hover,
+/* .info-field a:hover,
 .info-field a:active {
-  text-decoration: underline;
-  color: var(--grey-2);
-}
+  color: var(--secondary-color-1);
+} */
 .info-icon {
   width: 2.4rem;
   height: 2.4rem;
@@ -316,11 +310,11 @@ footer {
   color: var(--grey-1);
 }
 
-.github-link:hover,
+/* .github-link:hover,
 .github-link:active {
-  color: var(--grey-2);
-  transition: color 0.3s;
-}
+  color: var(--secondary-color-1);
+  transition: all 0.3s;
+} */
 
 .github-icon {
   stroke: var(--grey-1);
