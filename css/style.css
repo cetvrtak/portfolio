@@ -110,6 +110,16 @@ h2 {
 .nav-link:active {
   border-bottom: 1px solid var(--grey-1);
 }
+.hamburger {
+  display: none;
+  margin: 0 2.4rem;
+}
+.hamburger-line {
+  background-color: var(--grey-1);
+  width: 4.8rem;
+  height: 0.6rem;
+  margin: 1rem 0;
+}
 
 /* HERO SECTION */
 .hero-title {

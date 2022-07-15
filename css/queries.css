@@ -59,10 +59,8 @@
     gap: 6.4rem;
   }
 
-  .nav-icon {
+  .hamburger {
     display: block;
-    width: 24px;
-    height: 24px;
   }
 
   .nav-link:link,
