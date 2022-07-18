@@ -9,10 +9,10 @@
 
 document.querySelector(".hamburger").addEventListener("click", () => {
   const hamburgerMenu = document.querySelector(".hamburger-menu");
-  if (hamburgerMenu.style.display == "none") {
-    openHamburgerMenu(hamburgerMenu);
-  } else {
+  if (hamburgerMenu.style.display == "block") {
     closeHamburgerMenu(hamburgerMenu);
+  } else {
+    openHamburgerMenu(hamburgerMenu);
   }
 });
 
