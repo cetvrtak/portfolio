@@ -156,15 +156,21 @@ h2 {
 }
 
 /* HERO SECTION */
-.hero-title {
+.hero {
   /* font-family: "Lora", serif; */
-  font-size: 4.2rem;
+  /* font-size: 4.2rem; */
   font-weight: 500;
   color: var(--grey-1);
   position: absolute;
   top: 15%;
   left: 50%;
   transform: translateX(-50%);
+}
+.hero-title {
+  font-size: 3.6rem;
+}
+.hero-subtitle {
+  font-size: 2rem;
 }
 
 /* ABOUT ME SECTION */
