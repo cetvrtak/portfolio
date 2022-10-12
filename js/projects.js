@@ -57,6 +57,7 @@ function slider() {
       (s, i) => (s.style.transform = `translateX(${(i - project) * 100}%)`)
     );
     activateDot(project);
+    curProject = project;
   }
 
   function nextProject() {
