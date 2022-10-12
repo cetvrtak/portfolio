@@ -290,12 +290,23 @@ h2 {
   padding: 9.6rem 0;
   margin-bottom: var(--footer-height);
 }
+.section-projects > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.section-projects .projects-title {
+  margin: 0;
+}
 .projects-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 3.2rem;
   padding: 0 1.6rem;
+  width: 100%;
 }
 .projects {
   width: 100%;
@@ -336,10 +347,6 @@ h2 {
   margin: 0 3.2rem;
 }
 .dots {
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
 }
 
