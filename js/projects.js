@@ -3,6 +3,7 @@
 const projects = [
   "https://stevo-streamify.netlify.app/",
   // "https://www.anessy.com/",
+  "https://far-away-vacay.netlify.app",
   "https://clever-flan-d4fbec.netlify.app/",
   "https://stevo-address-book.netlify.app/",
   "https://chipper-chaja-b92c51.netlify.app",
