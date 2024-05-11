@@ -15,10 +15,12 @@ function renderProjects() {
 
   projects.forEach((project, i) => {
     const html = `
-          <iframe
-            src="${project}"
-            class="project project-${i}"
-          ></iframe>
+          <a href="${project}" title="${project}">
+            <iframe
+              src="${project}"
+              class="project project-${i}"
+            ></iframe>
+          </a>
         `;
     projectsEl.insertAdjacentHTML("beforeend", html);
   });
