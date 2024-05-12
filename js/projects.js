@@ -10,17 +10,14 @@ const projects = [
 ];
 
 function renderProjects() {
-  const projectsEl = document.querySelector(".projects");
+  const projectsEl = document.querySelector(".projects-container");
   projectsEl.innerHTML = "";
 
   projects.forEach((project, i) => {
     const html = `
-          <a href="${project}" title="${project}">
             <iframe
-              src="${project}"
-              class="project project-${i}"
+              src="${project}" class="project"
             ></iframe>
-          </a>
         `;
     projectsEl.insertAdjacentHTML("beforeend", html);
   });
@@ -101,4 +98,4 @@ function slider() {
     }
   });
 }
-slider();
+// slider();

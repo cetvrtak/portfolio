@@ -302,8 +302,9 @@ h2 {
 }
 .projects-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 3.2rem;
   padding: 0 1.6rem;
   width: 100%;
@@ -315,9 +316,8 @@ h2 {
   overflow: hidden;
 }
 .project {
-  position: absolute;
-  top: 0;
-  width: 100%;
+  width: 45%;
+  min-width: 360px;
   height: 65rem;
   border-radius: 25px;
   transition: all 0.6s;
