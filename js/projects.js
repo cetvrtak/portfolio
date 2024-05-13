@@ -1,13 +1,17 @@
 "use strict";
 
 const projects = [
-  "https://stevo-streamify.netlify.app/",
-  // "https://www.anessy.com/",
-  "https://far-away-vacay.netlify.app",
-  "https://clever-flan-d4fbec.netlify.app/",
-  "https://stevo-address-book.netlify.app/",
-  "https://chipper-chaja-b92c51.netlify.app",
+  { title: "Streamify", link: "https://stevo-streamify.netlify.app/" },
+  // {title:"Anessy", link:"https://www.anessy.com/"},
+  { title: "Far Away", link: "https://far-away-vacay.netlify.app", icon: 'react' },
+  { title: "Webshop", link: "https://clever-flan-d4fbec.netlify.app/" },
+  { title: "Address Book", link: "https://stevo-address-book.netlify.app/" },
+  { title: "Gallery", link: "https://chipper-chaja-b92c51.netlify.app" },
 ];
+
+const icons = {
+  'react': "https://react.dev/favicon-32x32.png",
+}
 
 function renderProjects() {
   const projectsEl = document.querySelector(".projects-container");
@@ -15,10 +19,17 @@ function renderProjects() {
 
   projects.forEach((project, i) => {
     const html = `
-            <iframe
-              src="${project}" class="project"
-            ></iframe>
-        `;
+      <div class="project-container">
+        <iframe src="${project.link}" class="project"></iframe>
+        <a href="${project.link}" target="blank_" class="project-link">
+          <h2 class="project-title">
+            <span>${project.title}</span>
+            <span class="underline"></span>
+          </h2>
+          ${project.icon ? `<img src="${icons[project.icon]}" />` : ''}
+        </a>
+      </div>
+    `;
     projectsEl.insertAdjacentHTML("beforeend", html);
   });
 }
