@@ -415,6 +415,10 @@ h2 {
   width: 90%;
 }
 
+.project-icon {
+  width: 44px;
+}
+
 /* .project:hover,
 .project:active {
   transform: scale(1.25);
