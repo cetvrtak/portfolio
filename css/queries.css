@@ -41,6 +41,10 @@
     border-radius: 9px;
   }
 
+  .project-icon {
+    width: 24px;
+  }
+
   .chevron {
     min-width: 2rem;
   }
