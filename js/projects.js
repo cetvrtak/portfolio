@@ -3,6 +3,7 @@
 const projects = [
   { title: "Streamify", link: "https://stevo-streamify.netlify.app/" },
   // {title:"Anessy", link:"https://www.anessy.com/"},
+  { title: "usePopcorn", link: "https://stevo-usepopcorn.netlify.app", tech: 'react' },
   { title: "Far Away", link: "https://far-away-vacay.netlify.app", tech: 'react' },
   { title: "Eat-n-Split", link: "https://stevo-eat-n-split.netlify.app", tech: 'react' },
   { title: "Buchhalter", link: "https://buchhalter.netlify.app", tech: 'vue' },
